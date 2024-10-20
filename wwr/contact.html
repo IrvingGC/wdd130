@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This site will be used as a practice for an assignment. It helps to know about using a form to colect contact information.">
+    <meta name="author" content="Irving Gonzalez">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>White Water Rafting</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/wwrlogo.png" alt="White Water Rafting Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>   
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Contact Information</h2>
+            <p>27890 CA-120, Groveland, CA 95321, United States</p>
+            <p>(951) 159-1234</p>
+            <p>Email: <a href="mailto:">irving.50505@gmail.com</a></p>
+            <div class ="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d100850.23352202831!2d-120.04801285490673!3d37.82354449308529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1729453719789!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section>
+            <h2>Meet our employees</h2>
+                <figure>
+                    <img src = "images/irv.jpeg" alt="Irving Gonzalez">
+                    <figcaption>Irving Gonzalez / Director</figcaption>
+                </figure>
+                <figure>
+                    <img src = "images/yaneli.jpeg" alt="Yaneli">
+                    <figcaption>Yaneli Hernandez / Instructor</figcaption>
+                </figure>
+                <figure>
+                    <img src = "images/cori.jpeg" alt="Cori">
+                    <figcaption>Cori / Funny Employee</figcaption>
+                </figure>
+                <figure>
+                    <img src = "images/hilda.jpeg" alt="Hilda Carrizales">
+                    <figcaption>Hilda Carrizales / Instructor</figcaption>
+                </figure>
+        </section>
+        <section class="contact-form-section">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post" class="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <fieldset>
+                    <legend>Purpose of your message:</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general_inquiry" required>
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation_question">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="website_suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+        
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+                <label>
+                    <input type="checkbox" name="subscribe" value="yes">
+                    Please subscribe me to the monthly newsletter
+                </label>
+        
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>        
+    </main>
+    <footer>
+        <p>©️2024 Wite Water Rafting Co 🛶 Irving Gonzalez</p>
+        
+        <nav class="Sociallinks">
+            <a href="https://www.facebook.com/">
+            <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://x.com/?lang=en">
+            <img src="images/xtwitter.png" alt="x">
+            </a>
+            <a href="https://www.instagram.com/">
+            <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>    
+    </footer>
+</body>
+</html>
