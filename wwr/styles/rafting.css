@@ -47,9 +47,13 @@ nav li {
 }
 
 nav a{
+    display: inline-block;
+    background-color: var(--background-color);
     color: var(--primary-color);
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: var(--background-color) 0.3s;
 }
 
 nav a:hover {
