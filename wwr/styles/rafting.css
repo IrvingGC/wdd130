@@ -157,6 +157,9 @@ figure{
 figcaption{
     color: var(--primary-color);
     margin-top: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 5px;
 }
 
 footer p {
