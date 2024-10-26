@@ -109,6 +109,10 @@ footer{
     margin: 0 auto;
 }
 
+footer p {
+
+}
+
 section {
     display: flex;
     flex-direction: row;
@@ -149,7 +153,9 @@ figcaption{
 }
 
 footer p {
-    margin: 0;
+    margin: 10 px;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
 }
 
 .sociallinks {
