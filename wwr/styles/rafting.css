@@ -397,3 +397,36 @@ footer p {
         height: auto;
     }
 }
+
+.trips-table {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+tbody tr:hover {
+    background-color: var(--text-color);
+    color: white;
+}
