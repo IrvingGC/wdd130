@@ -296,8 +296,17 @@ footer p {
     background-color: var(--text-color);
 }
 
-.newsletter {
-    margin: 40px 0;
+.cta{
+    flex: 1;
+    min-width: 300px;
+}
+
+.newsletter-cta {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    align-items: flex-start;
+    justify-content: space-between;
     padding: 20px;
     background-color: var(--background-color);
     border-radius: 8px;
@@ -305,6 +314,15 @@ footer p {
     text-align: center;
 }
 
+.newsletter {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.newsletter:last-child {
+    margin-right: 0;
+}
 .newsletter-form {
     display: flex;
     flex-direction: column;
