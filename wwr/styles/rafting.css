@@ -149,6 +149,13 @@ figure{
     align-items: center;
     margin: 0 auto;
     max-width: 90%;
+    width: 100%;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
 
 figcaption{
@@ -379,5 +386,14 @@ footer p {
     }
     .newsletter-cta{
         flex-direction: column;
+    }
+    figure {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    figure img {
+        width: 100%;
+        height: auto;
     }
 }
