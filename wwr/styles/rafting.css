@@ -65,6 +65,10 @@ main {
     margin: 0 auto;
     position: relative;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .hero {
