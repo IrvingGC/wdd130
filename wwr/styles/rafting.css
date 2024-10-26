@@ -292,7 +292,7 @@ footer p {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: white;
     text-decoration: none;
     border-radius: 5px;
